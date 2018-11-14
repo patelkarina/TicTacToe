@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=str
+comment0.target=ColorTextPiece(java.lang.String)
+comment0.text=\n\ Constructs\ a\ white\ game\ piece\ with\ a\ String.\n\ \n\ @param\ str\ a\ String\ to\ be\ displayed\ for\ this\ piece\n
+comment1.params=
+comment1.target=java.lang.String\ getText()
+comment1.text=\n\ Retrieves\ the\ text\ for\ this\ piece.\n\ \n\ @return\ text\ for\ this\ piece\n
+comment2.params=
+comment2.target=java.awt.Color\ getColor()
+comment2.text=\n\ Retrieves\ the\ color\ of\ this\ piece.\n\ \n\ @return\ the\ color\ of\ this\ piece\n
+comment3.params=
+comment3.target=boolean\ isBackground()
+comment3.text=\n\ Gets\ whether\ or\ not\ this\ piece\ is\ being\ used\ as\ \n\ an\ "empty"\ background\ cell\ for\ the\ GUI.\ \ An\ "empty"\n\ cell\ has\ text\ that\ is\ an\ empty\ String.\n\ \n\ @return\ true\ if\ piece\ is\ being\ used\ as\ an\ "empty"\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ background\ cell\ for\ the\ GUI;\ otherwise,\n\ \ \ \ \ \ \ \ \ false\n
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\n\ Determines\ if\ the\ text\ for\ one\ tile\ is\ the\ same\ \n\ as\ for\ the\ input\ parameter's\ tile.\n\ \n\ @param\ obj\ \ the\ ColorTextPiece\ object\ to\ which\ this\ piece's\n\ \ \ \ \ \ \ \ \ \ \ \ \ text\ is\ compared\ for\ equality\n\ \n\ @return\ true\ if\ texts\ of\ both\ tiles\ are\ the\ same;\ otherwiser,\ \n\ \ \ \ \ \ \ \ \ false\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Retrieves\ text\ information\ about\ this\ piece.\n\ \n\ @return\ text\ of\ this\ piece.\n
+numComments=6

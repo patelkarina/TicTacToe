@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TicTacToeGameRunner()
+comment0.text=\n\ Construct\ a\ TicTacToe\ Game\n
+comment1.params=
+comment1.target=void\ makeBoard()
+comment1.text=\n\ Initializes\ the\ board\ to\ white,\ empty\ tiles.\n
+comment2.params=loc
+comment2.target=boolean\ determineWinner(info.gridworld.grid.Location)
+comment2.text=\n\ Determines\ if\ there\ is\ a\ winner.\ \n\ \n\ @param\ loc\ loacation\ of\ the\ last\ piece\ just\ played\n\ @return\ true\ \ \ \ \ if\ the\ piece\ just\ played\ at\ position\ <code>loc</code>\ completes\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ completes\ a\ win\ for\ the\ player\ who\ just\ move;\ otherwise\n\ \ \ \ \ \ \ \ \ false\ \ \ \n
+comment3.params=loc
+comment3.target=boolean\ locationClicked(info.gridworld.grid.Location)
+comment3.text=\n\ When\ the\ current\ player\ clicks\ and\ attempts\ to\ place\ a\ piece,\ this\ method\n\ see\ whether\ it\ is\ a\ legal\ move\ and,\ if\ so,\ places\ a\ piece\ and\ calls\ determineWinner.\n\ It\ switches\ whose\ turn\ it\ is.\n\ \n\ @param\ loc\ location\ passed\ from\ the\ GUI\ where\ the\ use\ just\ clicked\n\ @return\ <code>true</code>\ \n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ Initializes\ and\ starts\ the\ TicTacToe\ game.\n\ \n\ @param\ args\ \ \ the\ list\ of\ information\ that\ may\ be\ passed\ from\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ command\ line\n
+numComments=5
